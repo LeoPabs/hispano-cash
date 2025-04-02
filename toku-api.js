@@ -168,7 +168,7 @@ var TokuStep, TokuOperationType, TokuEventResult, __extends = this && this.__ext
     return t ? "?".concat(t) : ""
   }, t.prototype.createIframe = function () {
     var t = document.createElement("iframe");
-    return t.id = this.settings.iframeId, t.setAttribute("allowFullscreen", ""), t.src = "".concat(this.portalHost).concat(this.path).concat(this.formatQueryParams()), t
+    return t.id = this.settings.iframeId, t.setAttribute("allowFullscreen", "true"), t.src = "https://pabssandbox.trytoku.com".concat(this.portalHost).concat(this.path).concat(this.formatQueryParams()), t
   }, t.prototype.mountIframe = function () {
     var t = document.getElementById(this.settings.containerId);
     if (!t) throw new Error("Could not find container element with id: ".concat(this.settings.containerId));
