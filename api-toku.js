@@ -135,7 +135,7 @@ var TokuStep, TokuOperationType, TokuEventResult, __extends = this && this.__ext
       return __generator(this, function (t) {
         switch (t.label) {
           case 0:
-            if (this.settings.isTesting) return [2, "http://localhost:8100/"];
+            if (this.settings.isTesting) return [2, "http://localhost:8080/"];
             t.label = 1;
           case 1:
             return t.trys.push([1, 5, , 6]), [4, fetch("https://pabssandbox.trytoku.com/portal_url", {
